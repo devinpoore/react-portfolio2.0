@@ -1,0 +1,21 @@
+.btn.btn-sm#emailBackBtn {
+    border: solid 1px darkgreen;
+    width: 80px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 12px;
+}
+
+#emailHeader {
+    color: darkgreen;
+    display: inline;
+}
+
+#emailArrow {
+    color: darkgreen;
+}
+
+.btn.btn-md#sendEmail {
+    background-color: darkgreen;
+    color: white;
+}

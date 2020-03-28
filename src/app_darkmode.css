@@ -1,0 +1,254 @@
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+}
+  
+.btn.btn-md {
+    padding: 5px;
+    background-color: rgb(16, 17, 17);
+}
+  
+#projectDesc {
+    box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+    border-bottom: 1px solid gray;
+    background-color: rgb(16, 17, 17);
+}
+
+#projectContent {
+    margin-top: .5rem;
+}
+
+#projectContent::-webkit-scrollbar {
+    width: .5em;
+}
+
+#projectContent::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+#projectContent::-webkit-scrollbar-thumb {
+    background-color: darkslategray;
+    outline: 1px solid slategrey;
+    border-radius: 5px;
+}
+
+#topHr {
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+
+#aw:hover, #aw2:hover {
+    border: solid 1px #802424;
+    color: #802424;
+}
+
+#cp:hover, #cp2:hover, #sm:hover {
+    border: solid 1px darkgreen;
+    color: darkgreen;
+}
+
+#spawtted:hover, #pf:hover {
+    border: solid 1px #4a269a;
+    color: #4a269a;
+}
+
+#cc:hover {
+    border: solid 1px orange;
+    color: orange;
+}
+
+#insideAbout {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top: 1px solid darkslategray;
+    border-bottom: 1px solid gray;
+    box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+    margin-bottom: 1rem;
+    background-color: rgb(16, 17, 17);
+    position: relative;
+}
+
+#insideAbout2 {
+    margin-top: 1rem;
+}
+
+#insideAbout2::-webkit-scrollbar {
+    width: .5em;
+}
+
+#insideAbout2::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+#insideAbout2::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: darkslategray;
+    outline: 1px solid slategrey;
+}
+
+h4 {
+    font-weight: 400;
+    color: darkslategray;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    padding-top: 7px;
+}
+
+#projectsHeader {
+    border-top: 1px solid darkslategray;
+}
+
+.btn.btn-md.btn-success {
+    width: 100%;
+}
+
+.modal-content h4 {
+    border-top: none;
+}
+
+#projectButtons {
+    margin-bottom: 15px;
+}
+
+.bioButtons {
+    margin-bottom: 15px;
+}
+
+.btn.bioBtn {
+    color: darkslategray;
+    background-color: white;
+}
+
+.bioBtn:hover {
+    font-weight: bold;
+}
+
+#contactBtn {
+    margin-top: 2rem;
+    background-color: #006400;
+    color: white;
+    font-size: 16px;
+}
+
+#contactBtn:hover {
+    font-weight: bold;
+}
+
+#projectContent p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    text-align: justify;
+    color: white;
+}
+
+.btn {
+    font-weight: 500;
+    border-radius: 15px;
+    text-transform: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn.project-btn {
+    font-size: 14px;
+    color: white;
+    margin-bottom: .75em;
+}
+
+.btn.project-btn:hover {
+    font-weight: bold;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.personalLink {
+    text-align: right;
+    font-size: 20px;
+    color: darkslategray;
+}
+
+.personalLink:hover {
+    color: white;
+}
+
+#aboutTitle {
+    display: inline-block;
+    margin-left: 0;
+}
+
+#aboutLinkIcons {
+    display: inline;
+    position: absolute;
+    right: .5rem;
+    top: .5rem;
+}
+
+footer {
+    border-top: 1px solid white;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer p {
+    font-family: 'Source Code Pro';
+    text-align: center;
+    color: white;
+}
+
+footer #cps {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+@media only screen and (max-width : 992px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    #projectBtnDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn.btn-block.project-btn {
+        width: 45%;
+        margin-bottom: .5rem;
+        margin-left: .25rem;
+        margin-right: .25rem;
+    }
+      
+    #projectDesc {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    #projectContent {
+        max-height: 750px;
+        overflow: auto;
+    }
+
+    #insideAbout {
+        margin-bottom: 0;
+    }
+
+    #contactBtn {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}

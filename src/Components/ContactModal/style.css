@@ -1,0 +1,72 @@
+.btn .far {
+    font-size: 36px;
+}
+
+.btn p {
+    margin-bottom: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 0px;
+    color: white;
+    font-size: 13px;
+}
+
+#emailBtn {
+    border: 3px solid darkgreen;
+}
+
+#emailBtn i {
+    color: darkgreen;
+}
+
+#smsBtn {
+    border: 3px solid #4a269a;
+}
+
+#smsBtn i {
+    color: #4a269a;
+}
+
+label {
+    font-size: 14px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.modal-dialog .modal-content {
+    border-radius: 15px;
+    background-color: rgb(16, 17, 17);
+    border: 1px solid darkslategray;
+}
+
+.modal-footer {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+h3, h5 {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.btn#closeBtn {
+    min-width: 90px;
+}
+
+@media only screen and (max-width : 768px) {
+    
+    #smsBtn, #emailBtn {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    
+    #smsBtn {
+        margin-bottom: 1rem;
+    }
+
+    input {
+        margin-bottom: .5rem;
+    }
+}

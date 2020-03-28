@@ -1,0 +1,169 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.btn.btn-md {
+  padding: 5px;
+}
+
+#projectDesc {
+  height: 85vh;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+
+#projectContent {
+  height: 90%;
+  overflow: auto;
+}
+
+#projectContent::-webkit-scrollbar {
+  width: .5em;
+}
+
+#projectContent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+}
+#projectContent::-webkit-scrollbar-thumb {
+  background-color: darkslategray;
+  outline: 1px solid slategrey;
+  border-radius: 5px;
+}
+
+#topHr {
+  margin-bottom: 5px;
+  margin-top: 12px;
+}
+
+#aw, #aw2 {
+  color: #802424;
+}
+
+#cp, #cp2 {
+  color: #006400;
+}
+
+#spawtted {
+  color: #000080;
+}
+
+#cc {
+  color: #ffa500;
+}
+
+#aw:hover, #aw2:hover {
+  border: solid 1px #802424;
+}
+
+#cp:hover, #cp2:hover {
+  border: solid 1px darkgreen;
+}
+
+#spawtted:hover {
+  border: solid 1px navy;
+}
+
+#cc:hover {
+  border: solid 1px orange;
+}
+
+#pf:hover {
+  border: solid 1px black;
+}
+
+#insideAbout {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px solid darkslategray;
+  box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.308);
+  border-radius: 15px;
+}
+
+#insideAbout2 {
+  width: 100%;
+  height: 40vh;
+  overflow: auto;
+}
+
+#insideAbout2::-webkit-scrollbar {
+  width: .5em;
+}
+
+#insideAbout2::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+#insideAbout2::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+background-color: darkslategray;
+outline: 1px solid slategrey;
+}
+
+h4 {
+  font-weight: 400;
+  color: darkslategray;
+  margin-bottom: 0px;
+  margin-left: 5px;
+  padding-top: 7px;
+}
+
+#projectsHeader {
+  border-top: 1px solid darkslategray;
+}
+
+.btn.btn-md.btn-success {
+  width: 100%;
+}
+
+.modal-content h4 {
+  border-top: none;
+}
+
+#projectButtons {
+  margin-bottom: 15px;
+}
+
+.bioButtons {
+  margin-bottom: 15px;
+}
+
+.bioBtn {
+  background-color: darkslategray;
+  color: white;
+}
+
+.bioBtn:hover {
+  color: gray;
+}
+
+#contactBtn {
+  margin-top: 15px;
+}
+
+#projectContent p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  text-align: justify;
+  padding-right: 15px;
+}
+
+.btn {
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.personalLink {
+  text-align: right;
+  font-size: 20px;
+  color: darkslategray;
+}
+
+#aboutTitle {
+  display: inline-block;
+  width: 70%;
+}

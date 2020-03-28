@@ -1,0 +1,41 @@
+hr {
+    margin-top: 5px;
+}
+
+#artwaveContent {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 12px;
+    text-align: justify;
+    /* padding-right: 15px; */
+}
+
+.carousel {
+    /* margin-right: 15px; */
+}
+
+.carousel-inner {
+    height: 340px;
+    /* background-color: darkgray; */
+    /* background-color: #802424; */
+    border-radius: 15px;
+}
+
+#artwaveCarousel .carousel-inner {
+    background-color: #802424;
+}
+
+.carousel-item img {
+    max-width: 95%;
+    height: 300px;
+    margin-top: 10px;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+ol {
+    margin-bottom: 0px;
+}
+
+#underCarouselRule {
+    margin-top: 15px;
+}

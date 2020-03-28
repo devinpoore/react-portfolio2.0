@@ -1,0 +1,34 @@
+i {
+    margin: 5px;
+    font-size: 20px;
+}
+
+.linkIcons {
+    display: inline;
+}
+
+#title {
+    font-size: 24px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.techUsed {
+    font-size: 20px;
+    color: white;
+}
+
+.techUsed:hover {
+    color: darkslategray;
+}
+
+.titleDiv {
+    position: relative;
+}
+
+#techUsedDiv {
+    position: absolute;
+    right: 1rem;
+    top: .5rem;
+}
+
