@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e62ba3a7.chunk.css",
+    "main.js": "/static/js/main.2893b57f.chunk.js",
+    "main.js.map": "/static/js/main.2893b57f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b9740393.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b9740393.js.map",
+    "static/js/2.3e53544c.chunk.js": "/static/js/2.3e53544c.chunk.js",
+    "static/js/2.3e53544c.chunk.js.map": "/static/js/2.3e53544c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.4e4313ce1436bb9c4a5a40e22998070c.js": "/precache-manifest.4e4313ce1436bb9c4a5a40e22998070c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e62ba3a7.chunk.css.map": "/static/css/main.e62ba3a7.chunk.css.map",
+    "static/media/AW_Add_List.png": "/static/media/AW_Add_List.b777fe56.png",
+    "static/media/AW_Cinema_Home.png": "/static/media/AW_Cinema_Home.b7f568bf.png",
+    "static/media/AW_Home_w_Rec.png": "/static/media/AW_Home_w_Rec.91401132.png",
+    "static/media/AW_List_View.png": "/static/media/AW_List_View.4c512577.png",
+    "static/media/CP_destination.png": "/static/media/CP_destination.e63add98.png",
+    "static/media/CP_home.png": "/static/media/CP_home.b42a362f.png",
+    "static/media/CP_home_wide.png": "/static/media/CP_home_wide.fd209461.png",
+    "static/media/CP_login.png": "/static/media/CP_login.35ec5f99.png",
+    "static/media/CP_register.png": "/static/media/CP_register.406d3441.png",
+    "static/media/CP_register_w_car.png": "/static/media/CP_register_w_car.aaef146e.png",
+    "static/media/CP_routed.png": "/static/media/CP_routed.ce1ed896.png",
+    "static/media/DevinPooreResume-2.20.20.pdf": "/static/media/DevinPooreResume-2.20.20.675e62ae.pdf",
+    "static/media/cc_alert.png": "/static/media/cc_alert.75919e6d.png",
+    "static/media/cc_response.png": "/static/media/cc_response.3ef544f0.png",
+    "static/media/cloudinary.png": "/static/media/cloudinary.106aed90.png",
+    "static/media/listing_one.png": "/static/media/listing_one.cf580905.png",
+    "static/media/listing_two.png": "/static/media/listing_two.6cf97054.png",
+    "static/media/report_lost_pet.png": "/static/media/report_lost_pet.3dec8382.png",
+    "static/media/report_lost_pet_two.png": "/static/media/report_lost_pet_two.4726b5e7.png",
+    "static/media/spawtted_home.png": "/static/media/spawtted_home.ccedc8a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b9740393.js",
+    "static/js/2.3e53544c.chunk.js",
+    "static/css/main.e62ba3a7.chunk.css",
+    "static/js/main.2893b57f.chunk.js"
+  ]
+}
