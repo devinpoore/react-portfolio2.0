@@ -1,6 +1,12 @@
-i {
+i, .iconify {
     margin: 5px;
     font-size: 20px;
+}
+
+.iconify {
+    /* padding-bottom: 5px; */
+    /* margin-bottom: 10px; */
+    margin-top: -1px;
 }
 
 .linkIcons {

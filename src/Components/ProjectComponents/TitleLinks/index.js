@@ -44,6 +44,9 @@ const TitleLinks = (props) => {
                         <i title="Built with ReactJS" style={{display: currentProject.techUsed.indexOf("react") !== -1 ? "inline" : "none"}} className="techUsed fab fa-react"></i>
                         <i title="Built with JavaScript" style={{display: currentProject.techUsed.indexOf("js") !== -1 ? "inline" : "none"}} className="techUsed fab fa-js-square"></i>
                         <i title="Built with NodeJS" style={{display: currentProject.techUsed.indexOf("node") !== -1 ? "inline" : "none"}} className="techUsed fab fa-node-js"></i>
+                        <div style={{display: currentProject.techUsed.indexOf("redux") !== -1 ? "inline" : "none"}}>
+                            <span title="Built with Redux" className="techUsed iconify" data-icon="simple-icons:redux" data-inline="false"></span>
+                        </div>
                         <i title="Built with Bootstrap" style={{display: currentProject.techUsed.indexOf("bootstrap") !== -1 ? "inline" : "none"}} className="techUsed fab fa-bootstrap"></i>
                     </div>
 

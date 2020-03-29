@@ -56,7 +56,8 @@ const projectInfo = {
         "frontGithubLink": "https://github.com/devinpoore/sPawtted",
         "backGithubLink": "",
         "deployedProjectLink": "https://spawtted.herokuapp.com/",
-        "hexCode": "#4a269a",
+        // "hexCode": "#4a269a",
+        hexCode: "#7555b9",
         "techUsed": ["node", "js", "bootstrap"]
     },
     chorechat: {
@@ -76,7 +77,8 @@ const projectInfo = {
         "frontGithubLink": "https://github.com/devinpoore/react-portfolio",
         "backGithubLink": "https://github.com/devinpoore/api-react-portfolio",
         "deployedProjectLink": "",
-        "hexCode": "#4a269a",
+        // "hexCode": "#4a269a",
+        hexCode: "#7555b9",
         "techUsed": ["node", "react", "bootstrap"]
     },
     spotify_migrate: {
@@ -87,7 +89,7 @@ const projectInfo = {
         "backGithubLink": "https://github.com/devinpoore/SpotifyMigrate",
         "deployedProjectLink": "",
         "hexCode": "#006400",
-        "techUsed": ["node", "react", "bootstrap"]
+        "techUsed": ["node", "react", "redux", "bootstrap"]
     }
 }
 

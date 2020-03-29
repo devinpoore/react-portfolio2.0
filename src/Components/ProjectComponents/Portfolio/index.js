@@ -15,7 +15,7 @@ export default function Portfolio(props) {
 
             <h6 style={{ "color": props.themeHex }}>Project Philosophy</h6>
             <p>
-                I think part of being a good developer is spending the time to give some thought towards the
+                Part of being a good developer is spending the time to give some thought towards the
                 question of "What is the point/goal of a project?".
             </p>
 
@@ -47,14 +47,20 @@ export default function Portfolio(props) {
             </p>
 
             <p>
-                I have probably spend too much time obsessing over and trying to perfect my portfolio 
+                I have probably spent too much time obsessing over and trying to perfect my portfolio 
             </p>
 
             <h6 style={{ "color": props.themeHex }}>Lessons Learned</h6>
+            <p>
+                This project, more than anything else, has felt like a design project. I mentioned in the 'Artwave' write up that, up until that
+                project, I hadn't really considered myself much of a UI designer, but there was no way around the recognition that this portfolio
+                project was arguably exclusively a design project. The whole point was to think about <em>how</em> to display my work in a way that
+                a potential hiring manager would enjoy the experience of learning more about me and my skills.
+            </p>
 
             <h6 style={{ "color": props.themeHex }}>Going Forward</h6>
             <p>
-                Mobile responsive, clean up/refactor components, finish readme on front and backend repos, clean up/refactor css for dark/light mode functionality,
+                clean up/refactor components, finish readme on front and backend repos, clean up/refactor css for dark/light mode functionality,
                 building a framework to easily/dynamiclly add content and new projects to portfolio, maybe a blog component too
             </p>
 

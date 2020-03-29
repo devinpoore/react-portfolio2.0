@@ -15,7 +15,7 @@ class ContactModal extends React.Component {
     commSelection = (btnClicked) => {
         if (btnClicked === "email") {
             this.setState({ modalContent: "emailForm" });
-        } else if (btnClicked === "text") {
+        } else if (btnClicked === "sms") {
             this.setState({ modalContent: "smsForm" });
         }
     }

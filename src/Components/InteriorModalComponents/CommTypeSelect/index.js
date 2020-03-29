@@ -5,14 +5,12 @@ import "./style.css";
 function CommTypeSelect(props) {
     return (
         <div>
-
             <h4 id="modal-title">How would you like to connect?</h4>
-            {/* <hr /> */}
 
             <div className="row">
 
                 <div className="col-md-6">
-                    <button id="smsBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("text")}>
+                    <button id="smsBtn" className="btn btn-xl btn-block" onClick={() => props.clickAction("sms")}>
                         <p>SMS (preferred)</p>
                         <i className="far fa-comment-alt"></i>
                     </button>
@@ -26,7 +24,6 @@ function CommTypeSelect(props) {
                 </div>
 
             </div>
-
         </div>
     )
 }
