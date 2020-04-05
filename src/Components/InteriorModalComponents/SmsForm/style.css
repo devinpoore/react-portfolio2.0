@@ -44,3 +44,20 @@ input, textarea.form-control {
 #emailArrowSMS {
     color: #4a269a;
 }
+
+.contact-info {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width : 768px) {
+    
+    input, textarea.form-control {
+        border-radius: 20px;
+        font-size: 16px;
+        padding-left: 12px;
+    }
+
+    textarea.form-control {
+        min-height: 125px;
+    }
+}

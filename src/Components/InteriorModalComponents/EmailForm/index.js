@@ -54,7 +54,7 @@ class EmailForm extends React.Component {
                 {/* <hr /> */}
     
                 <form>
-                    <div className="form-group">
+                    <div className="contact-info form-group">
                         <div className="row">
                             <div className="col-md-6">
                                 <label htmlFor="nameInput">Name</label>

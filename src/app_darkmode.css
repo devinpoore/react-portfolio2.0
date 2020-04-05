@@ -3,6 +3,8 @@ h1 {
     font-weight: 400;
     color: white;
     text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
   
 .btn.btn-md {
@@ -103,6 +105,7 @@ h4 {
 
 #projectsHeader {
     border-top: 1px solid darkslategray;
+    margin-bottom: 1rem;
 }
 
 .btn.btn-md.btn-success {
@@ -143,8 +146,9 @@ h4 {
 
 #projectContent p {
     font-family: 'Source Code Pro', monospace;
-    font-size: 12px;
-    text-align: justify;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1.75;
     color: white;
 }
 

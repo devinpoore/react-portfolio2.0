@@ -87,19 +87,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="container">
-        <hr id="topHr" />
+        {/* <hr id="topHr" /> */}
         
         <header>
           <h1>devin poore / portfolio</h1>
         </header>
 
-        <hr />
+        {/* <hr /> */}
 
         <div className="row">
 
           <div id="projectButtons" className="col-lg-2">
             <h4 id="projectsHeader">projects</h4>
-            <hr />
+            {/* <hr /> */}
 
             {/* {this.state.buttonInfo.map(button => {
               return <button id={button.id} className="btn btn-md" onClick={this.projectTabClicked} value={button.value}>{button.text}</button>
