@@ -110,7 +110,7 @@ class App extends React.Component {
               <button id="aw" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="artwave">artwave</button>
               {/* <button id="aw2" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="artwave2">artwave 2.0</button> */}
               <button id="cc" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="chorechat">chorechat</button>
-              <button id="pf" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="portfolio">portfolio</button>
+              {/* <button id="pf" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="portfolio">portfolio</button> */}
               <button id="cp" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="carpoolify">carpoolify</button>
               {/* <button id="cp2" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="carpoolify2">carpoolify 2.0</button> */}
               <button id="spawtted" className="btn btn-md btn-block project-btn" onClick={this.projectTabClicked} value="spawtted">spawtted</button>

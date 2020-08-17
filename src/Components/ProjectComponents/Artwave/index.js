@@ -107,7 +107,10 @@ export default function Artwave(props) {
                 </p>
                 <p>
                     The second major challenge (and in my opinion, the primary challenge) of the project was the database setup. We knew from the get go
-                    what we 
+                    that the database schema was going to be fairly complex. We had to track data about user accounts, data about different works of art,
+                    and how data about those works of art were related to the lists created by or shared by Artwave users. Our instructor was pretty convinced
+                    we needed to use a SQL db (and in retrospect, he was probably right), but it made more sense to my teammates and I at the time to use 
+                    MongoDB. We spent about a day and a half designing our schemas before we got going.
                 </p>
                 
                 <hr/>
